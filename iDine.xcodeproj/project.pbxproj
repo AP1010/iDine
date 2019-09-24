@@ -21,6 +21,9 @@
 		313F488623381A9C000B3BE1 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 313F488523381A9C000B3BE1 /* menu.json */; };
 		313F488823382C5E000B3BE1 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313F488723382C5E000B3BE1 /* ItemRow.swift */; };
 		313F488A23383536000B3BE1 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313F488923383536000B3BE1 /* ItemDetail.swift */; };
+		319AC03223398B750031BCF7 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319AC03123398B750031BCF7 /* OrderView.swift */; };
+		319AC03423398D760031BCF7 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319AC03323398D760031BCF7 /* AppView.swift */; };
+		319AC03623398F850031BCF7 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319AC03523398F850031BCF7 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		313F488523381A9C000B3BE1 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		313F488723382C5E000B3BE1 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		313F488923383536000B3BE1 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		319AC03123398B750031BCF7 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		319AC03323398D760031BCF7 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		319AC03523398F850031BCF7 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +122,11 @@
 				313F487F23381A6C000B3BE1 /* Helper.swift */,
 				313F484F2338187C000B3BE1 /* AppDelegate.swift */,
 				313F48512338187C000B3BE1 /* SceneDelegate.swift */,
+				319AC03523398F850031BCF7 /* CheckoutView.swift */,
 				313F48532338187C000B3BE1 /* ContentView.swift */,
 				313F488923383536000B3BE1 /* ItemDetail.swift */,
+				319AC03123398B750031BCF7 /* OrderView.swift */,
+				319AC03323398D760031BCF7 /* AppView.swift */,
 				313F488723382C5E000B3BE1 /* ItemRow.swift */,
 				313F485523381880000B3BE1 /* Assets.xcassets */,
 				313F488523381A9C000B3BE1 /* menu.json */,
@@ -287,12 +296,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				313F488423381A87000B3BE1 /* Order.swift in Sources */,
+				319AC03623398F850031BCF7 /* CheckoutView.swift in Sources */,
 				313F48502338187C000B3BE1 /* AppDelegate.swift in Sources */,
 				313F48522338187C000B3BE1 /* SceneDelegate.swift in Sources */,
 				313F488823382C5E000B3BE1 /* ItemRow.swift in Sources */,
 				313F48542338187C000B3BE1 /* ContentView.swift in Sources */,
 				313F488A23383536000B3BE1 /* ItemDetail.swift in Sources */,
+				319AC03223398B750031BCF7 /* OrderView.swift in Sources */,
 				313F488023381A6C000B3BE1 /* Helper.swift in Sources */,
+				319AC03423398D760031BCF7 /* AppView.swift in Sources */,
 				313F488323381A87000B3BE1 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
